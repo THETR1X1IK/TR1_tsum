@@ -1,0 +1,6 @@
+{
+  "webhooks": [
+    "url webhook"
+  ],
+  "refresh_time": 30
+}

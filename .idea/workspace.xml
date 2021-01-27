@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77d21a78-b150-4ec5-a7c3-bca9f754cc12" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="monitor" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>self.sizes</find>
+      <find>de</find>
+      <find>ru</find>
+      <find>'</find>
+      <find>&quot;&quot;&quot;</find>
+      <find>/&quot;</find>
+      <find>\&quot;</find>
+      <find>\&quot;&quot;</find>
+      <find>\&quot;'</find>
+      <find>&quot;</find>
+      <find>count</find>
+      <find>refresh_time</find>
+      <find>pid</find>
+      <find>name</find>
+      <find>image</find>
+      <find>save_sizes</find>
+      <find>:</find>
+      <find>div_sizes</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>de</replace>
+      <replace>ru</replace>
+      <replace>us</replace>
+      <replace>/&quot;</replace>
+      <replace>\&quot;</replace>
+      <replace>&quot;\&quot;</replace>
+      <replace>'\&quot;</replace>
+      <replace>\&quot;'</replace>
+      <replace>&quot;</replace>
+      <replace>'</replace>
+      <replace>': '</replace>
+    </replaceStrings>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectId" id="1bP25R2GQhM1JCtg08VH31z43bO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588279725603" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../BLESSED/TR1_Scripts/BANANZA#0.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kiril\Desktop\brandshop monitor" />
+      <recent name="C:\Users\kiril\Desktop\brandshop monitor\classes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.BANANZA#0">
+    <configuration name="BANANZA#0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="monitor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Max\PycharmProjects\tr1xikbanana\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../BLESSED/TR1_Scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../BLESSED/TR1_Scripts/BANANZA#0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="monitor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Max\PycharmProjects\commentator13\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="refraktor IO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="monitor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Max\PycharmProjects\CLEARBOY\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/CLEARBOY" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/CLEARBOY/refraktor IO.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="running_tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="monitor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Max\PycharmProjects\CLEARBOY\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/CLEARBOY" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/CLEARBOY/running_tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tsum_monitor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="monitor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Max\PycharmProjects\CLEARBOY\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes/tsum_monitor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.BANANZA#0" />
+        <item itemvalue="Python.running_tools" />
+        <item itemvalue="Python.refraktor IO" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.tsum_monitor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77d21a78-b150-4ec5-a7c3-bca9f754cc12" name="Default Changelist" comment="" />
+      <created>1566145630348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566145630348</updated>
+      <workItem from="1566145636472" duration="115000" />
+      <workItem from="1566145796594" duration="298000" />
+      <workItem from="1566146190410" duration="16214000" />
+      <workItem from="1566332330796" duration="25947000" />
+      <workItem from="1566842211829" duration="14895000" />
+      <workItem from="1568361089278" duration="8791000" />
+      <workItem from="1568655336803" duration="3633000" />
+      <workItem from="1569173929370" duration="1066000" />
+      <workItem from="1569188710088" duration="5263000" />
+      <workItem from="1570219593936" duration="2735000" />
+      <workItem from="1570440315341" duration="10261000" />
+      <workItem from="1571166280631" duration="34452000" />
+      <workItem from="1572290418353" duration="6737000" />
+      <workItem from="1574352003155" duration="31505000" />
+      <workItem from="1576067731584" duration="7091000" />
+      <workItem from="1577121364494" duration="597000" />
+      <workItem from="1577123190699" duration="599000" />
+      <workItem from="1577482303684" duration="1059000" />
+      <workItem from="1577647481339" duration="1452000" />
+      <workItem from="1580402804278" duration="2049000" />
+      <workItem from="1582327024951" duration="12246000" />
+      <workItem from="1582882144356" duration="8819000" />
+      <workItem from="1583423403134" duration="6324000" />
+      <workItem from="1583687187395" duration="1242000" />
+      <workItem from="1583786174900" duration="1269000" />
+      <workItem from="1585346624514" duration="1452000" />
+      <workItem from="1585947798812" duration="2054000" />
+      <workItem from="1587473782843" duration="13000" />
+      <workItem from="1588123106113" duration="5880000" />
+      <workItem from="1588190156090" duration="1790000" />
+      <workItem from="1588257262598" duration="12599000" />
+      <workItem from="1588519243787" duration="605000" />
+      <workItem from="1588519866057" duration="611000" />
+      <workItem from="1588531277430" duration="670000" />
+      <workItem from="1592775062550" duration="410000" />
+      <workItem from="1594660697380" duration="2039000" />
+      <workItem from="1594815529246" duration="1826000" />
+      <workItem from="1595017709642" duration="19766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="655" y="130" key="#BANANZA#0" timestamp="1595111637990">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="655" y="130" key="#BANANZA#0/0.0.1920.1050@0.0.1920.1050" timestamp="1595111637990" />
+    <state x="655" y="130" key="#main" timestamp="1592775122801">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="655" y="130" key="#main/0.0.1920.1050@0.0.1920.1050" timestamp="1592775122801" />
+    <state x="655" y="130" key="#refraktor_IO" timestamp="1594816134466">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="655" y="130" key="#refraktor_IO/0.0.1920.1050@0.0.1920.1050" timestamp="1594816134466" />
+    <state x="1135" y="133" key="#running_tools" timestamp="1595111370967">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1135" y="133" key="#running_tools/0.0.1920.1050@0.0.1920.1050" timestamp="1595111370967" />
+    <state x="655" y="130" key="#tsum_monitor" timestamp="1594661937357">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="655" y="130" key="#tsum_monitor/0.0.1920.1050@0.0.1920.1050" timestamp="1594661937357" />
+    <state x="655" y="130" key="#wsevn" timestamp="1588519800942">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="655" y="130" key="#wsevn/0.0.1920.1050@0.0.1920.1050" timestamp="1588519800942" />
+    <state x="1220" y="283" key="FileChooserDialogImpl" timestamp="1595111622855">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1220" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1595111622855" />
+    <state width="1879" height="343" key="GridCell.Tab.0.bottom" timestamp="1595185796387">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595185796387" />
+    <state width="1879" height="343" key="GridCell.Tab.0.center" timestamp="1595185796387">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="343" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595185796387" />
+    <state width="1879" height="343" key="GridCell.Tab.0.left" timestamp="1595185796386">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="343" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595185796386" />
+    <state width="1879" height="343" key="GridCell.Tab.0.right" timestamp="1595185796387">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="343" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595185796387" />
+    <state x="587" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1595017797768">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="587" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595017797768" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tsum$tsum_monitor.coverage" NAME="tsum_monitor Coverage Results" MODIFIED="1594662048511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classes" />
+    <SUITE FILE_PATH="coverage/tsum$main.coverage" NAME="main Coverage Results" MODIFIED="1594662077622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tsum$running_tools.coverage" NAME="running_tools Coverage Results" MODIFIED="1595111543858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/CLEARBOY" />
+    <SUITE FILE_PATH="coverage/tsum$BANANZA_0.coverage" NAME="BANANZA#0 Coverage Results" MODIFIED="1595113234854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../BLESSED/TR1_Scripts" />
+    <SUITE FILE_PATH="coverage/tsum$refraktor_IO.coverage" NAME="refraktor IO Coverage Results" MODIFIED="1595017918538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/CLEARBOY" />
+    <SUITE FILE_PATH="coverage/tsum$wsevn.coverage" NAME="wsevn Coverage Results" MODIFIED="1588531585697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classes" />
+  </component>
+</project>

@@ -10,6 +10,7 @@ from selenium import webdriver
 import re
 import json
 
+
 class TsumMonitor():
     def __init__(self, webhooks, refresh_time):
         self.webhooks = webhooks
@@ -23,9 +24,9 @@ class TsumMonitor():
                         'Upgrade-Insecure-Requests': '1',
                         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'}
         self.headers_api = {'Host': 'api.tsum.ru', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate',
-                        'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-User': '?1',
-                        'Upgrade-Insecure-Requests': '1',
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'}
+                            'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-User': '?1',
+                            'Upgrade-Insecure-Requests': '1',
+                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'}
 
     def log(self, msg):
         print("[{}]: {}".format(datetime.now(), msg))
@@ -74,11 +75,13 @@ class TsumMonitor():
                         headers=self.headers)
                 soup = BeautifulSoup(req.content, 'html5lib')
                 ps = soup.findChildren('p', attrs={'class': 'product__description'},
-                                       text=re.compile('(\W|^)[Yy][Ee][Ee][Zz][Yy]|[Nn][Ii][Kk][Ee]|[F][f][E][e][A][a][R][r]|[G][g][O][o][D][d](\W|$)'))
+                                       text=re.compile(
+                                           '(\W|^)[Yy][Ee][Ee][Zz][Yy]|[Nn][Ii][Kk][Ee]|[F][f][E][e][A][a][R][r]|[G][g][O][o][D][d](\W|$)'))
                 for p in ps:
                     parent_div = p.findParent('div', attrs={'class': ['product-list__item', 'ng-star-inserted']})
                     link = parent_div.findChildren('a', attrs={'class': 'product__info'})[0].get('href')
-                    price = parent_div.findChildren('span', attrs={'class': ['product__price', 'ng-star-inserted']})[0].text
+                    price = parent_div.findChildren('span', attrs={'class': ['product__price', 'ng-star-inserted']})[
+                        0].text
                     info = json.loads(requests.get(
                         'https://api.tsum.ru/catalog/item/{}'.format(link.split('/')[len(link.split('/')) - 2]),
                         headers=self.headers_api,
@@ -97,7 +100,8 @@ class TsumMonitor():
                             for size in sizes:
                                 size_num = size['size_vendor_name']
                                 size_pid = size['id']
-                                sizes_str1 = sizes_str1 + '[{}](https://tr1.com/pages/tsum?v={})'.format(size_num, size_pid) + "\n"
+                                sizes_str1 = sizes_str1 + '[{}](https://tr1.com/pages/tsum?v={})'.format(size_num,
+                                                                                                         size_pid) + "\n"
                         if (len(sizes) < 13) & (len(sizes) > 6):
                             b1 = round(len(sizes) / 2)
                             qwe1 = sizes[:b1]
@@ -105,11 +109,13 @@ class TsumMonitor():
                             for size in qwe1:
                                 size_num = size['size_vendor_name']
                                 size_pid = size['id']
-                                sizes_str1 = sizes_str1 + '[{}](https://tr1.com/pages/tsum?v={})'.format(size_num, size_pid) + "\n"
+                                sizes_str1 = sizes_str1 + '[{}](https://tr1.com/pages/tsum?v={})'.format(size_num,
+                                                                                                         size_pid) + "\n"
                             for size in qwe2:
                                 size_num = size['size_vendor_name']
                                 size_pid = size['id']
-                                sizes_str2 = sizes_str2 + '[{}](https://tr1.com/pages/tsum?v={})'.format(size_num, size_pid) + "\n"
+                                sizes_str2 = sizes_str2 + '[{}](https://tr1.com/pages/tsum?v={})'.format(size_num,
+                                                                                                         size_pid) + "\n"
                         if len(sizes) > 12:
                             b1 = round(len(sizes) / 3)
                             b3 = b1 + b1
@@ -119,17 +125,22 @@ class TsumMonitor():
                             for size in qwe1:
                                 size_num = size['size_vendor_name']
                                 size_pid = size['id']
-                                sizes_str1 = sizes_str1 + '[{} uk](https://tr1.com/pages/tsum?v={})'.format(size_num, size_pid) + "\n"
+                                sizes_str1 = sizes_str1 + '[{} uk](https://tr1.com/pages/tsum?v={})'.format(size_num,
+                                                                                                            size_pid) + "\n"
                             for size in qwe2:
                                 size_num = size['size_vendor_name']
                                 size_pid = size['id']
-                                sizes_str1 = sizes_str1 + '[{} uk](https://tr1.com/pages/tsum?v={})'.format(size_num, size_pid) + "\n"
+                                sizes_str1 = sizes_str1 + '[{} uk](https://tr1.com/pages/tsum?v={})'.format(size_num,
+                                                                                                            size_pid) + "\n"
                             for size in qwe3:
                                 size_num = size['size_vendor_name']
                                 size_pid = size['id']
-                                sizes_str1 = sizes_str1 + '[{} uk](https://tr1.com/pages/tsum?v={})'.format(size_num, size_pid) + "\n"
+                                sizes_str1 = sizes_str1 + '[{} uk](https://tr1.com/pages/tsum?v={})'.format(size_num,
+                                                                                                            size_pid) + "\n"
                         status = 'IN STOCK'
-                    product = {'name': name, 'link': link, 'pid': pid, 'price': price, 'sizes': sizes, 'sizes1': sizes_str1, 'sizes2': sizes_str2, 'sizes3': sizes_str3, 'img': img, 'status': status}
+                    product = {'name': name, 'link': link, 'pid': pid, 'price': price, 'sizes': sizes,
+                               'sizes1': sizes_str1, 'sizes2': sizes_str2, 'sizes3': sizes_str3, 'img': img,
+                               'status': status}
                     buff_product = list([x for x in self.products if link in x.values()])
                     if info['id'] not in pids:
                         if len(buff_product) == 0:
@@ -164,7 +175,7 @@ class TsumMonitor():
         embed.add_field(name='**Pid**', value=product['pid'], inline=True)
         embed.add_field(name='**Price**', value=product['price'], inline=False)
         if product['status'] != 'OUT OF STOCK': embed.add_field(name='**Sizes**', value=product['sizes1'],
-            inline=(product['sizes2'] != ''))
+                                                                inline=(product['sizes2'] != ''))
         if product['sizes2'] != '': embed.add_field(name='**Sizes**', value=product['sizes2'],
                                                     inline=(product['sizes2'] != ''))
         if product['sizes3'] != '': embed.add_field(name='**Sizes**', value=product['sizes3'],
@@ -174,7 +185,8 @@ class TsumMonitor():
                         inline=False)
         embed.set_thumbnail(product['img'])
 
-        embed.set_footer(text="THETR1XIK", icon_url="https://sun9-16.userapi.com/impg/_6R59Fdndj2Pf-Iah-luprDvUMoLmpTJNJuwtQ/JD07kUgPelg.jpg?size=640x800&quality=96&proxy=1&sign=1f9b9db79ebf30a3a4e3aff1054925ff&type=album")
+        embed.set_footer(text="THETR1XIK",
+                         icon_url="https://sun9-16.userapi.com/impg/_6R59Fdndj2Pf-Iah-luprDvUMoLmpTJNJuwtQ/JD07kUgPelg.jpg?size=640x800&quality=96&proxy=1&sign=1f9b9db79ebf30a3a4e3aff1054925ff&type=album")
 
         for webhook in self.webhooks:
             try:
@@ -185,4 +197,3 @@ class TsumMonitor():
                 self.log("Posted status update to Discord webhook {}".format(webhook))
             except Exception as e:
                 self.log("Error sending to Discord webhook {}".format(e))
-
